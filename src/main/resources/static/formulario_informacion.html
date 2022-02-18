@@ -1,0 +1,93 @@
+
+<html>
+    <head>
+        <title>Cotizaciones</title>
+        <meta charset="UTF-8">
+        <link href="../../../../../Tienda/src/main/resources/static/css/estilos.css" rel="stylesheet" type="text/css"/>
+        <link href="static.css/menu.css" rel="stylesheet" type="text/css"/>
+        <link href="static.css/estilos.css" rel="stylesheet" type="text/css"/>
+    </head>
+    <body>
+
+        <header class="header"> 
+
+            <nav class="nav"> 
+
+                <a href="index.html" class="logo nav-link">Luxury Vehicles</a>
+                <ul class="nav-menu">
+                    <li class="nav-menu-item"><a  class="nav-menu-link nav-link" href="portafolio_deportivos.html">Deportivos</a></li>
+                    <li class="nav-menu-item"><a  class="nav-menu-link nav-link" href="portafolio_sedanes.html">Sedanes</a></li>
+                    <li class="nav-menu-item"><a  class="nav-menu-link nav-link" href="portafolio_electricos.html">Eléctricos</a></li>
+                    <li class="nav-menu-item"><a  class="nav-menu-link nav-link" href="portafolio_suv.html">SUV</a></li>
+                    <li class="nav-menu-item"><a  class="nav-menu-link nav-link" href="portafolio_motocicletas.html">Motocicletas</a></li>
+                    <li class="nav-menu-item"><a  class="nav-menu-link nav-link" href="contactenos.html">Contáctenos</a></li>
+                    <li class="nav-menu-item"><a  class="nav-menu-link nav-link" href="formulario_informacion.html">Cotizaciones</a></li>
+                    <li class="nav-menu-item"><a  class="nav-menu-link nav-link" href="importacion_vehiculos.html">Importación</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <div id="tipo"> <!-- Indica que es una barra lateral, puede ser a la izquierda o a la derecha, pueden ser varias. -->
+            <h2 style="font-family: sans-serif;text-align: center;background-color: black;color:white"><strong>Solicitud de información sobre vehículo</strong> </h2>
+        </div>
+        <section id="contenidoizq">
+
+            <article>
+
+                <form action="#">
+                    <ol>
+                        <li><label>Nombre           : </label><input type="text" name="campo1" /></li>
+                        <br>
+                        <li><label>Primer apellido:  </label><input type="text" name="campo2" /></li>
+                        <br>
+                        <li><label>Segundo apellido: </label><input type="text" name="campo3" /></li>
+                        <br>
+                        <li><label>Correo electrónico: </label><input type="email" name="campo04"/></li>
+                        <br>
+                        <li><label>Fecha de nacimiento: </label><input type="date" name="campo05"/></li>
+                        <br>
+                        <li><label>Teléfono: </label><input type="tel" name="campo06"  /></li>
+                        <br>
+                        <img src="images/Agencia.jpg" alt="" width="250"/>
+                        </article>
+                        </section>
+                        <section id="contenidoderecha">
+                            <article>
+
+                                <li><label>¿Es un deportivo?: </label><input type="checkbox" name="campo07" value="checkbox" /></li>
+                                <br>
+                                <li><label>¿Es un sedán?: </label><input type="checkbox" name="campo08" value="checkbox" /></li>
+                                <br>
+                                <li><label>¿Es un vehículo eléctrico?: </label><input type="checkbox" name="campo09" value="checkbox" /></li>
+                                <br>
+                                <li><label>¿Es un SUV?: </label><input type="checkbox" name="campo10" value="checkbox" /></li>
+                                <br>
+                                <li><label>¿Es una motocicleta?: </label><input type="checkbox" name="campo11" value="checkbox" /></li>
+                                <br>
+                                <li><label>Número de ID: </label><input type="number" name="campo12" min="1" max="3"/></li>
+                                <br>
+                                <li><label>Agendar cita: </label><input type="date" name="campo13" /> <label>Hora:</label><input type="time" name="campo14"  /><br></li>
+                                <br>
+
+                                <section id="contenidocentral">
+                                    <article>
+                                        <li><label>Mensaje:</label><input type="text" name="campo15" placeholder="Introduzca información relevante para su cita" size="40" /></li>
+                                        <br>
+
+                                        </ol>
+                                        <label>&check; Enviar: </label><input type="submit" name="campo16" value="Enviar"  /><br>
+                                        <br><label>&xotime; Reiniciar información: </label><input type="reset" name="campo15" />
+
+
+                                    </article>
+
+                                </section>    
+
+
+                                </form>
+                            </article>  
+
+                        </section>
+                        <footer id="piedepagina">Luxury Vehicles - Costa Rica | Derechos reservados &COPY; | 2022 <address style="display: inline;"> Tel: 8799-3422</address></footer>
+                        </body>
+                        </html>
